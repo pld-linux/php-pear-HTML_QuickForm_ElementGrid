@@ -32,7 +32,7 @@ defaults and submitted values correctly.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF_8
-Klasa ta dostarcza meta-elementu przechowującego wiele elementów
+Klasa ta dostarcza metaelementu przechowującego wiele elementów
 HTML_QuickForm w tabeli HTML_Table. Elementy tej tabeli zachowują się
 identycznie jak typowe elementy formularza - można je "zamrozić" oraz
 pobrać domyślne jak i wysłane wartości.
