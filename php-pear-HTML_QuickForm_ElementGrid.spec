@@ -1,25 +1,21 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		HTML
-%define		_subclass	QuickForm_ElementGrid
 %define		_status		alpha
 %define		_pearname	HTML_QuickForm_ElementGrid
-
 Summary:	%{_pearname} - HTML_QuickForm meta-element which holds any other element in a grid
 Summary(pl.UTF-8):	%{_pearname} - metaelement HTML_QuickForm przechowujący inny element tabeli danych
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	46771abf9ee78fce0b78cef7aefddc14
 URL:		http://pear.php.net/package/HTML_QuickForm_ElementGrid/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.3
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTML_QuickForm >= 3.2.5
 Requires:	php-pear-HTML_Table >= 1.7.5
-Requires:	php-pear-PEAR >= 1.4.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
