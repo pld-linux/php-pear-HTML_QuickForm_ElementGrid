@@ -1,6 +1,5 @@
 %define		status		alpha
 %define		pearname	HTML_QuickForm_ElementGrid
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - HTML_QuickForm meta-element which holds any other element in a grid
 Summary(pl.UTF-8):	%{pearname} - metaelement HTML_QuickForm przechowujący inny element tabeli danych
 Name:		php-pear-%{pearname}
