@@ -4,7 +4,7 @@ Summary:	%{pearname} - HTML_QuickForm meta-element which holds any other element
 Summary(pl.UTF-8):	%{pearname} - metaelement HTML_QuickForm przechowujący inny element tabeli danych
 Name:		php-pear-%{pearname}
 Version:	0.1.2
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
